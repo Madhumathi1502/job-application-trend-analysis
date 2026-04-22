@@ -119,9 +119,19 @@ http://127.0.0.1:8050/
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
 
+### 📊 Dashboard Overview
 ![Dashboard](screenshots/dashboard.jpeg)
+
+<br>
+
+### 💰 Salary Insights
 ![Salary](screenshots/salary_insights.jpeg)
+
+<br>
+
+### 🌐 Skill Analysis (Sunburst)
 ![Sunburst](screenshots/sunburst.jpeg)
 
 ## 🎯 Key Highlights
