@@ -121,13 +121,13 @@ http://127.0.0.1:8050/
 
 
 ### 📊 Dashboard Overview
-![Dashboard](screenshots/dashboard.jpeg)
+![Dashboard](assets/screenshots/dashboard.jpeg)
 
 ### 💰 Salary Insights
-![Salary](screenshots/salary_insights.jpeg)
+![Salary](assets/screenshots/salary_insights.jpeg)
 
 ### 🌐 Skill Analysis (Sunburst)
-![Sunburst](screenshots/sunburst.jpeg)
+![Sunburst](assets/screenshots/sunburst.jpeg)
 
 ## 🎯 Key Highlights
 
