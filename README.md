@@ -117,9 +117,8 @@ http://127.0.0.1:8050/
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-## 📸 Screenshots
 
 ### 📊 Dashboard Overview
 ![Dashboard](screenshots/dashboard.jpeg)
@@ -145,7 +144,7 @@ http://127.0.0.1:8050/
 
 ## 👩‍💻 Author
 
-**Madhu (Madhumathi R)**
+Madhumathi R
 
 ---
 
