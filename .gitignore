@@ -1,10 +1,11 @@
 # Ignore datasets (large files)
-*.csv
+
 *.tsv
 *.xlsx
 linkedin_full_dataset.zip
 *.zip
-*.csv
+linkedin_full_dataset.csv
+
 *.zip
 # Python cache
 __pycache__/

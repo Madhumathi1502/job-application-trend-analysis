@@ -1,70 +1,146 @@
-LinkedIn Job Analytics Dashboard
+# 📊 LinkedIn Job Analytics Dashboard
 
-An interactive data analytics and visualization dashboard built using Python, Dash, Plotly, and CSS to analyze LinkedIn job postings (2023–2024). The dashboard provides insights into job trends, top companies, locations, skills, and job types, including a hierarchical Sunburst visualization.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Dash](https://img.shields.io/badge/Dash-Framework-black)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-purple)
+![Hive](https://img.shields.io/badge/Apache%20Hive-Big%20Data-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-🚀 Features
+---
 
-Interactive web dashboard
+## 🚀 Overview
 
-Sidebar-based navigation
+An end-to-end **Big Data Analytics Project** that analyzes LinkedIn job postings (2023–2024) to uncover hiring trends, in-demand skills, and industry patterns.
 
-Dynamic filters for skills and job types
+This project demonstrates a complete data pipeline:
 
-Sunburst chart (Skills → Job Type → Company)
+👉 **Big Data Processing (Hive) → Data Transformation → Visualization (Dash / Plotly)**
 
-Bar, line, and pie charts
+---
 
-Optimized for large datasets
+## ✨ Features
 
-🛠️ Tech Stack
+* 📌 Interactive web dashboard
+* 📊 Multiple visualizations (bar, line, pie, sunburst)
+* 🎯 Dynamic filtering (skills, job types)
+* 🧭 Sidebar-based navigation
+* 🔍 Insights into:
 
-Python
+  * Job trends over time
+  * Top hiring companies
+  * In-demand skills
+  * Location-based job distribution
+  * Job type analysis
 
-Dash & Plotly
+---
 
-Pandas
+## 🛠️ Tech Stack
 
-Dash Bootstrap Components
+### 🔹 Big Data Processing
 
-HTML & CSS
+* Apache Hive (HiveQL for large-scale querying)
 
-📁 Dataset
+### 🔹 Data Analysis
 
-LinkedIn Job Postings (2023–2024)
+* Python (Pandas)
 
-~865,000 records (Kaggle)
+### 🔹 Visualization
 
-▶️ How to Run
+* Dash & Plotly (Interactive dashboard)
+* Tableau *(conceptual / optional layer)*
+
+### 🔹 Frontend
+
+* HTML, CSS
+* Dash Bootstrap Components
+
+---
+
+## 📁 Project Structure
+
+```
+job-application-trend-analysis/
+│
+├── linkedin_dashboard.py        # Main dashboard application
+├── assets/                     # Styling (CSS)
+├── *.csv                       # Processed datasets (lightweight)
+├── README.md
+```
+
+---
+
+## 📊 Dataset
+
+* LinkedIn Job Postings Dataset (2023–2024)
+* ~865,000 records
+* Processed using Apache Hive
+
+⚠️ **Note:**
+The raw dataset is not included due to size constraints.
+Only processed CSV files used for visualization are provided.
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Install dependencies
+
+```bash
 pip install dash plotly pandas dash-bootstrap-components
+```
+
+### 2️⃣ Run the application
+
+```bash
 python linkedin_dashboard.py
+```
+
+### 3️⃣ Open in browser
+
+```
+http://127.0.0.1:8050/
+```
+
+---
+
+## 📈 Visualizations
+
+* 📊 Top Companies Hiring
+* 🌍 Top Locations
+* 💼 Top Job Titles
+* 🧠 Top Skills
+* 🧾 Job Type Distribution
+* 📅 Monthly Job Trends
+* 🏢 Company vs Job Type
+* 📍 Location vs Job Type
+* 🌐 Sunburst (Skills → Job Type → Company)
+
+---
+
+## 📸 Screenshots
 
 
-Open: http://127.0.0.1:8050/
+![Dashboard](screenshots/dashboard.jpeg)
+![Salary Insights](screenshots/salary_insights.jpeg)
+![Sunburst](screenshots/sunburst.jpeg)
 
-📊 Visualizations
 
-Top Companies
 
-Top Locations
+## 🎯 Key Highlights
 
-Top Job Titles
+* Handled large-scale dataset (~865K records)
+* Built an interactive analytics dashboard
+* Implemented real-world data pipeline concepts
+* Extracted actionable insights from job market data
 
-Top Skills
+---
 
-Job Type Distribution
+## 👩‍💻 Author
 
-Monthly Job Trends
+**Madhu (Madhumathi R)**
 
-Company vs Job Type
+---
 
-Location vs Job Type
+## 📄 License
 
-Sunburst (Skills → Job Type → Company)
-
-👩‍💻 Author
-
-Madhu (Madhumathi R)
-
-📄 License
-
-For educational and academic use only.
+This project is intended for **educational and academic purposes only**.
